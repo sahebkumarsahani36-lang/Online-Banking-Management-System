@@ -1,0 +1,3 @@
+url=jdbc:mysql://localhost:3306/online_banking
+user=YOUR_MYSQL_USERNAME
+password=YOUR_MYSQL_PASSWORD
