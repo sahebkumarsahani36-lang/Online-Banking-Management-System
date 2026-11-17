@@ -1,67 +1,60 @@
-Online Banking Management System
+# Online Banking Management System
 A Java Swing and MySQL-based desktop application developed to demonstrate basic online banking operations.
 
-Project Overview
-The Online Banking Management System provides separate interfaces for customers and administrators. It allows customers to manage account information, perform demo money transfers, and view transaction history. Administrators can monitor customers, accounts, and transactions.
+## Project Overview
+The Online Banking Management System provides separate interfaces for customers and administrators. Customers can manage account information, perform demo money transfers, and view transaction history. Administrators can monitor customers, accounts, and transactions.
 
-Features
+## Features
+### Customer Module
+- Customer Registration and Login
+- Customer Dashboard
+- View Account Details
+- Demo Money Transfer
+- Transaction History
+- Customer Profile
 
-Customer Module
-Customer Registration and Login
-Customer Dashboard
-View Account Details
-Demo Money Transfer
-Transaction History
-Customer Profile
+### Admin Module
+- Admin Login
+- Admin Dashboard
+- View Total Customers
+- View Total Accounts
+- View Total Transactions
+- View All Customer Transactions
 
-Admin Module
-Admin Login
-Admin Dashboard
-View Total Customers
-View Total Accounts
-View Total Transactions
-View All Customer Transactions
+## Technologies Used
+- Java
+- Java Swing
+- MySQL
+- JDBC
+- Maven
+- IntelliJ IDEA
 
-Technologies Used
-Java
-Java Swing (GUI)
-MySQL
-JDBC
-Maven
-IntelliJ IDEA
+## Team Members
+1. **Saheb Kumar Sahni** – Admin
+2. **Aryan Chaudhary** – Member
+3. **Akshay Sharma** – Member
 
-Project Structure
+## Project Structure
+```text
 Online-Banking-Management-System/
 src/
- connection/
- DBConnection.java
-gui/
- AdminDashboard.java
- AdminRoleSetup.java
- AdminTransactionHistoryFrame.java
- CustomerDashboard.java
-CustomerProfileFrame.java
-LoginFrame.java
- RegisterFrame.java
-TransactionHistoryFrame.java
- TransferFrame.java
+connection/
+ gui/
 Main.java
- pom.xml
-.gitignore
+pom.xml
+ .gitignore
+```
 
-Setup Instructions
-Install JDK and IntelliJ IDEA.
-Install MySQL Server.
-Create a database named online_banking.
-Configure your local database connection in db.properties.
-Open the project in IntelliJ IDEA as a Maven project.
-Build and run Main.java.
+## Setup Instructions
+1. Install JDK and IntelliJ IDEA.
+2. Install MySQL Server.
+3. Create a database named `online_banking`.
+4. Configure local database credentials in `db.properties`.
+5. Open the project as a Maven project.
+6. Build and run `Main.java`.
 
-Security Not
-Database credentials are stored locally and are not included in this repository. This is an academic demonstration project and should not be used for real banking or financial transactions.
+## Security Note
+Database credentials are stored locally and are not included in this repository. This is an academic demonstration project and must not be used for real banking or financial transactions.
 
-Team Members
-Add the names of all three project members here.
-
-Project Status
-Academic project – Development version.
+## Project Status
+Academic Project – Development Version.
