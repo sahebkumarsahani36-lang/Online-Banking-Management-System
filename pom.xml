@@ -26,6 +26,12 @@
 
     <build>
         <sourceDirectory>src</sourceDirectory>
+
+        <resources>
+            <resource>
+                <directory>resource</directory>
+            </resource>
+        </resources>
     </build>
 
 </project>
