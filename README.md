@@ -32,22 +32,22 @@ IntelliJ IDEA
 
 Project Structure
 Online-Banking-Management-System/
-├── src/
-│   ├── connection/
-│   │   └── DBConnection.java
-│   ├── gui/
-│   │   ├── AdminDashboard.java
-│   │   ├── AdminRoleSetup.java
-│   │   ├── AdminTransactionHistoryFrame.java
-│   │   ├── CustomerDashboard.java
-│   │   ├── CustomerProfileFrame.java
-│   │   ├── LoginFrame.java
-│   │   ├── RegisterFrame.java
-│   │   ├── TransactionHistoryFrame.java
-│   │   └── TransferFrame.java
-│   └── Main.java
-├── pom.xml
-└── .gitignore
+src/
+ connection/
+ DBConnection.java
+gui/
+ AdminDashboard.java
+ AdminRoleSetup.java
+ AdminTransactionHistoryFrame.java
+ CustomerDashboard.java
+CustomerProfileFrame.java
+LoginFrame.java
+ RegisterFrame.java
+TransactionHistoryFrame.java
+ TransferFrame.java
+Main.java
+ pom.xml
+.gitignore
 
 Setup Instructions
 Install JDK and IntelliJ IDEA.
